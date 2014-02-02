@@ -18,9 +18,6 @@ body {
 .container {
   width: 942px;
 }
-.container {
-  width: 300px;
-}
 .column {
   display: block;
   float: left;
