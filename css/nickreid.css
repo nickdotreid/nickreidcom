@@ -29,7 +29,7 @@ body {
 .column-large {
   width: 600px;
 }
-@media (max-width: 328px) {
+@media (max-width: 300px + 14px*2) {
   .container {
     width: auto;
     margin: 0px;
@@ -81,12 +81,24 @@ body {
   overflow: hidden;
   text-indent: -30000em;
 }
+.nav .button-icon a:hover {
+  background-color: transparent;
+}
 .button-twitter a {
   background-position: 0px 0px;
+}
+.nav .button-twitter a:hover {
+  background-position: 0px -34px;
 }
 .button-linkedin a {
   background-position: -110px 0px;
 }
+.nav .button-linkedin a:hover {
+  background-position: -110px -34px;
+}
 .button-github a {
   background-position: -50px 0px;
+}
+.nav .button-github a:hover {
+  background-position: -50px -34px;
 }
