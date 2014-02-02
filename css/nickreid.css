@@ -1,0 +1,92 @@
+body {
+  font-family: Verdana, Arial, Sans-Serif;
+  font-size: 14px;
+  color: #444444;
+  background: #dddddd;
+  padding: 0px;
+}
+.wrapper-top {
+  background-color: #f1f1f1;
+  background-image: url('../img/wrapper-bottom.jpg');
+  background-repeat: repeat-x;
+  background-position: bottom center;
+}
+.section {
+  color: #444444;
+  background: #ffffff;
+}
+.container {
+  width: 942px;
+}
+.container {
+  width: 300px;
+}
+.column {
+  display: block;
+  float: left;
+  width: 300px;
+}
+.column-large {
+  width: 600px;
+}
+@media (max-width: 328px) {
+  .container {
+    width: auto;
+    margin: 0px;
+  }
+  .column,
+  .column-large {
+    width: auto;
+  }
+}
+.nav {
+  margin: 0px;
+}
+.content {
+  margin: 14px;
+}
+.nav {
+  background-color: #aaaaaa;
+  padding: 0px 14px;
+}
+.nav-pills > li > a {
+  border-radius: 0px;
+}
+.nav-filler {
+  height: 35px;
+}
+.site-logo {
+  background-color: #ed3c95;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-image: url('../img/nickreid-logo-300x186.png');
+  width: 300px;
+  height: 186px;
+  margin: 0px;
+  overflow: hidden;
+  text-indent: -30000em;
+}
+.nav-tabs > li.button-icon > a,
+.nav-pills > li.button-icon > a {
+  padding: 0px;
+  margin: 2px 7px;
+}
+.button-icon a {
+  background-color: transparent;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-image: url('../img/nickreid-icons.png');
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  text-indent: -30000em;
+}
+.button-twitter a {
+  background-position: 0px 0px;
+}
+.button-linkedin a {
+  background-position: -110px 0px;
+}
+.button-github a {
+  background-position: -50px 0px;
+}

@@ -1,0 +1,35 @@
+.container{
+	width:@blockSize*3 + @spaceSize*3;
+}
+
+.container{
+	width:@blockSize;
+}
+
+.column{
+	display:block;
+	float:left;
+	width:@blockSize;
+}
+
+.column-large{
+	width:@blockSize*2;
+}
+
+@media ( max-width: @minSize ) {
+	.container{
+		width:auto;
+		margin:0px;
+	}
+	.column,.column-large{
+		width:auto;
+	}
+}
+
+.nav{
+	margin:0px;
+}
+
+.content{
+	margin:@spaceSize;
+}
