@@ -1,16 +1,3 @@
-.container{
-	width:@blockSize*3 + @spaceSize*3;
-}
-
-.column{
-	display:block;
-	float:left;
-	width:@blockSize;
-}
-
-.column-large{
-	width:@blockSize*2;
-}
 
 .nav{
 	margin:0px;
@@ -24,4 +11,40 @@
 }
 .section .title{
 	margin:0px @spaceSize;
+}
+
+.container{
+	padding:0px
+}
+
+@media (min-width:@smallSize){
+	.container{
+		width:@blockSize;
+		margin:0px auto;
+	}
+	.column{
+		display:block;
+		width:@blockSize;
+	}
+}
+
+@media (min-width: @medSize){
+	.container{
+		width:@blockSize*2 + @spaceSize*4;
+	}
+
+	.column{
+		float:left;
+		margin:0px @spaceSize/2;
+	}
+}
+
+@media (min-width: @largeSize){
+	.container{
+		width:@blockSize*3 + @spaceSize*4;
+	}
+
+	.column-large{
+		width:@blockSize*2;
+	}
 }
