@@ -11,8 +11,27 @@ body {
   background-repeat: repeat-x;
   background-position: bottom center;
 }
+.nav a {
+  color: #444444;
+}
+.nav a:hover,
+.nav li a:hover {
+  background-color: transparent;
+  color: #000;
+}
 .section {
   color: #444444;
+}
+.section .title {
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.2em;
+}
+.section .title,
+.section .title a {
+  color: #444444;
+}
+.section .content {
   background: #ffffff;
 }
 .container {
@@ -26,21 +45,14 @@ body {
 .column-large {
   width: 600px;
 }
-@media (max-width: 300px + 14px*2) {
-  .container {
-    width: auto;
-    margin: 0px;
-  }
-  .column,
-  .column-large {
-    width: auto;
-  }
-}
 .nav {
   margin: 0px;
 }
 .content {
-  margin: 14px;
+  padding: 7px 0px;
+}
+.inner {
+  margin: 0px 14px;
 }
 .nav {
   background-color: #aaaaaa;

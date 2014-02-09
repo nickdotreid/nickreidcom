@@ -12,20 +12,13 @@
 	width:@blockSize*2;
 }
 
-@media ( max-width: @minSize ) {
-	.container{
-		width:auto;
-		margin:0px;
-	}
-	.column,.column-large{
-		width:auto;
-	}
-}
-
 .nav{
 	margin:0px;
 }
 
 .content{
-	margin:@spaceSize;
+	padding:@spaceSize/2 0px;	
+}
+.inner{
+	margin:0px @spaceSize;
 }

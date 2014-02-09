@@ -13,7 +13,27 @@ body{
 	background-position:	bottom center;
 }
 
+.nav{
+	a{
+		color:@fontColor;
+	}
+	a:hover, li a:hover{
+		background-color: transparent;
+		color:#000;
+	}
+}
+
 .section{
 	color:			@fontColor;
-	background:		@sectionBackground;
+	.title{
+		margin:0px;
+		padding:0px;
+		line-height:1.2em;
+	}
+	.title, .title a{
+		color: @fontColor;
+	}
+	.content{
+		background:	@sectionBackground;
+	}
 }
