@@ -54,6 +54,9 @@ body {
 .inner {
   margin: 0px 14px;
 }
+.section .title {
+  margin: 0px 14px;
+}
 .nav {
   background-color: #aaaaaa;
   padding: 0px 14px;
