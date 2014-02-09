@@ -5,6 +5,9 @@ body {
   background: #dddddd;
   padding: 0px;
 }
+h2 {
+  text-align: right;
+}
 .wrapper-top {
   background-color: #f1f1f1;
   background-image: url('../img/wrapper-bottom.jpg');
@@ -30,6 +33,12 @@ body {
 .section .title,
 .section .title a {
   color: #444444;
+}
+.section h2.title {
+  margin-top: 14px;
+}
+.section h3.title {
+  margin-top: 7px;
 }
 .section .content {
   background: #ffffff;
