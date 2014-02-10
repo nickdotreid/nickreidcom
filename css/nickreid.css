@@ -5817,6 +5817,15 @@ h2 {
 .section .content {
   background: #ffffff;
 }
+.section-image {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  background-image: url('../img/nickreid-picture.jpg');
+  background-repeat: no-repeat;
+  background-position: top left;
+  height: 200px;
+}
 .nav {
   margin: 0px;
 }
