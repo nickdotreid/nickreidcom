@@ -1,13 +1,16 @@
 .site-logo{
 	background-color:		@highlightColor;
-	background-position:	top left;
+	background-position:	top center;
 	background-repeat:		no-repeat;
-	background-image:		url('../img/nickreid-logo-300x186.png');
-	width:					300px;
+	background-image:		url('../img/nickreid-logo-400x186.png');
 	height:					186px;
 	margin:					0px;
 	overflow:				hidden;
 	text-indent:			-30000em;
+}
+
+@media (min-width:@smallSize){
+	width: 300px;
 }
 
 .nav-tabs > li.button-icon > a, .nav-pills > li.button-icon > a{
