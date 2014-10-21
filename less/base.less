@@ -18,6 +18,7 @@ h2{
 }
 
 .nav{
+	font-size: @navFontSize;
 	a{
 		color:@fontColor;
 	}
@@ -32,12 +33,17 @@ h2{
 	color:			@fontColor;
 	.title, h2.title, h3.title{
 		margin:0px;
-		padding:0px @spaceSize*2;
+		padding:@spaceSize/2 @spaceSize*2 0px;
 		line-height:1.2em;
 		border-bottom: @borderColor @borderWidth*2 solid;
-	}
-	.title, .title a{
-		color: @fontColor;
+		&a, a{
+			color: @fontColor;
+			&:hover{
+				cursor:pointer;
+				text-decoration:none;
+				border-bottom-color:@fontColor;
+			}
+		}
 	}
 	h2.title{
 		margin-top:@spaceSize;
@@ -50,7 +56,7 @@ h2{
 	}
 }
 
-.section-image{
+.section-image, .column-image{
 	display:block;
 	margin:0px;
 	padding:0px;
@@ -58,4 +64,10 @@ h2{
 	background-repeat:		no-repeat;
 	background-position:	top left;
 	height:200px;
+}
+
+.image-nickreid{
+	background-image:		url('../img/nickreid-picture.jpg');
+	height: 160px;
+	margin-top:28px;
 }
